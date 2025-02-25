@@ -1,0 +1,1808 @@
+CNNCifar(
+  (conv1): Conv2d(3, 64, kernel_size=(5, 5), stride=(1, 1))
+  (pool): MaxPool2d(kernel_size=3, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2): Conv2d(64, 64, kernel_size=(5, 5), stride=(1, 1))
+  (fc1): Linear(in_features=1024, out_features=384, bias=True)
+  (fc2): Linear(in_features=384, out_features=192, bias=True)
+  (fc3): Linear(in_features=192, out_features=10, bias=True)
+)
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(2.1818e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(7.9858e-09, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(1.5409e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(3.4781e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(3.4820e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(2.9128e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(3.8740e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(4.6519e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(5.5290e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(6.1509e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2843s
+Round   0,Testing accuracy: 10.6900,Time:  13.1559s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(4.8630e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(1.6695e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(3.9811e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(8.4796e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(9.8981e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(7.5582e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(1.1031e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(1.1934e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2483s
+Round   1,Testing accuracy: 10.9300,Time:  11.4684s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(2.1601e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(7.6415e-09, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(1.4717e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(3.3284e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(3.3327e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(2.8436e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(3.6775e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(4.5403e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(5.3120e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(6.0826e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.3020s
+Round   2,Testing accuracy: 11.1500,Time:  12.6426s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(5.2304e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(1.8266e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(4.2305e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(9.1207e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(9.7865e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(7.6091e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(1.0697e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(1.1844e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2562s
+Round   3,Testing accuracy: 12.3100,Time:  12.9861s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(2.2475e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(8.0620e-09, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(1.5028e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(3.3694e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(3.4901e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(2.8595e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(3.8459e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(4.4864e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(5.6086e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(6.0150e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2183s
+Round   4,Testing accuracy: 11.6500,Time:  11.1029s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(5.8891e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(2.0276e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(4.5400e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(9.8567e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(1.0300e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(7.7040e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(1.1262e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(1.1779e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1951s
+Round   5,Testing accuracy: 15.4700,Time:  10.9805s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(2.5729e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(9.0470e-09, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(1.6258e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(3.6345e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(3.8061e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(2.8890e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(4.2233e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(4.4424e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(6.2535e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(5.9457e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1947s
+Round   6,Testing accuracy: 13.5300,Time:  10.9623s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(7.0109e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(2.3354e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(4.9813e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(1.0788e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(1.1260e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(7.7625e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(1.2450e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(1.1664e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2009s
+Round   7,Testing accuracy: 17.4900,Time:  10.9070s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(2.8360e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(1.0661e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(1.7806e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(3.9933e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(4.3280e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(2.9488e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(4.7945e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(4.3783e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(7.2489e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(5.8786e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1631s
+Round   8,Testing accuracy: 15.8100,Time:  9.6228s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(8.4432e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(2.7231e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(5.4257e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(1.1713e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(1.2796e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(7.8771e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(1.4265e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(1.1576e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1892s
+Round   9,Testing accuracy: 18.5200,Time:  10.0529s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(3.4531e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(1.3167e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(1.9978e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(4.4596e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(5.0651e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.0554e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(5.5876e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(4.3443e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(8.5563e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(5.8077e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1937s
+Round  10,Testing accuracy: 17.0300,Time:  9.5124s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(1.0535e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(3.3116e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(6.1199e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(1.3166e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(1.4700e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(7.9687e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(1.6839e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(1.1569e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1798s
+^[[D^[[D^[[D^[[D^[[DRound  11,Testing accuracy: 18.2800,Time:  10.3755s
+^[[D^[[D^[[D^[[Cw_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(4.1823e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(1.7323e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(2.3220e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(5.2040e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(6.0194e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.1672e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(6.6752e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(4.3096e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(5.7352e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1833s
+Round  12,Testing accuracy: 18.3800,Time:  9.9627s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(1.3728e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(4.1343e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(6.8778e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(1.4660e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(1.7309e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(8.1069e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(2.0346e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(1.1546e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0003, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1895s
+Round  13,Testing accuracy: 18.1900,Time:  9.9298s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(5.4177e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(2.3493e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(2.7128e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(6.0673e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(7.1846e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.2621e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(8.0485e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(4.2801e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(5.6606e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2011s
+Round  14,Testing accuracy: 20.3100,Time:  10.9426s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(1.8382e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(5.3432e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(7.7168e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(1.6317e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(2.0495e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(8.2041e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(2.4872e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(1.1493e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0003, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1976s
+Round  15,Testing accuracy: 18.7600,Time:  10.9118s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(7.2947e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(3.2396e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(3.1372e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(7.0353e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(8.6407e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.3762e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(9.8302e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(4.2554e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(5.5814e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2470s
+Round  16,Testing accuracy: 22.5700,Time:  10.9670s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(2.6582e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(7.3338e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(8.8838e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(1.8621e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(2.4756e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(8.3849e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(3.0971e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(1.1460e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0004, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2523s
+Round  17,Testing accuracy: 19.9600,Time:  10.9845s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(1.0022e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(4.5871e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(3.7039e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(8.2758e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(1.0446e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.4871e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(1.2182e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(4.2500e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(5.4957e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1971s
+Round  18,Testing accuracy: 23.5600,Time:  12.1165s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(3.7694e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(1.0347e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(2.1393e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(2.9997e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(8.5978e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(3.8852e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(1.1461e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0005, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1997s
+Round  19,Testing accuracy: 21.0300,Time:  11.5607s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(1.3766e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(6.4579e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(4.2949e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(9.5794e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(1.2528e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.5927e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(1.5109e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(4.2484e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0003, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(5.4046e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2055s
+Round  20,Testing accuracy: 23.7500,Time:  9.9445s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(5.5180e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(1.4730e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(2.4273e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(3.5934e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(8.7515e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(4.8338e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(1.1358e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0007, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2191s
+Round  21,Testing accuracy: 21.3900,Time:  11.0482s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(1.9251e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(9.1497e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(5.0427e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(1.1193e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(1.4874e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.6836e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(1.8657e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(4.2334e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0003, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(5.3094e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1930s
+Round  22,Testing accuracy: 23.2400,Time:  10.3653s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(7.8160e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(2.0670e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(2.7635e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(4.2500e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(8.9027e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(5.9358e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(1.1286e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0009, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1874s
+Round  23,Testing accuracy: 21.1600,Time:  10.9780s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(2.6009e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(1.2587e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(5.6875e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(1.2662e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(1.6917e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.7248e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(2.2224e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(4.2036e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0004, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(5.2188e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1876s
+Round  24,Testing accuracy: 23.0900,Time:  10.8910s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(1.0735e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(2.7293e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(3.0386e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(4.7410e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(8.9038e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(6.8725e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(1.1135e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0011, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1846s
+Round  25,Testing accuracy: 20.6400,Time:  10.9722s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(3.1160e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(1.5207e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(5.9634e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(1.3185e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(1.8008e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.6576e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(2.4797e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(4.1101e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0005, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(5.1281e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1838s
+Round  26,Testing accuracy: 23.1300,Time:  10.8961s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(1.3093e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(3.5047e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(3.3138e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(5.0502e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(8.8798e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(7.5138e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(1.0960e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0013, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1672s
+Round  27,Testing accuracy: 20.9600,Time:  9.8815s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(3.6457e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(1.7949e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(6.1405e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(1.3615e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(1.8449e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.6017e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(2.6232e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(4.0305e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0005, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(5.0528e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1975s
+Round  28,Testing accuracy: 23.3400,Time:  10.4172s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(1.4810e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(3.9998e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(3.3598e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(5.1416e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(8.6914e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(7.8471e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(1.0722e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0014, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1886s
+Round  29,Testing accuracy: 21.3400,Time:  10.2003s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(4.1140e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(2.0415e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(6.2129e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(1.3719e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(1.8765e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.5139e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(2.7422e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.9361e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0006, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(4.9777e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1656s
+Round  30,Testing accuracy: 23.9100,Time:  9.7367s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(1.6082e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(4.5108e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(3.4016e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(5.2578e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(8.5707e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(8.2328e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(1.0542e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0015, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2241s
+Round  31,Testing accuracy: 21.7400,Time:  10.6139s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(4.4005e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(2.2169e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(6.1858e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(1.3647e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(1.9035e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.4548e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(2.8400e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.8603e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0006, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(4.9002e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1685s
+Round  32,Testing accuracy: 24.1700,Time:  9.9690s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(1.7191e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(4.9869e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(3.4522e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(5.3765e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(8.4653e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(8.5871e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(1.0375e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0016, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2013s
+Round  33,Testing accuracy: 22.2100,Time:  9.8390s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(4.6405e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(2.3667e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(6.2146e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(1.3600e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(1.9490e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.4274e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(2.9548e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.8077e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0007, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(4.8233e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1798s
+Round  34,Testing accuracy: 24.4500,Time:  9.8825s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(1.7830e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(5.4856e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(3.5079e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(5.4804e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(8.4440e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(8.8973e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(1.0282e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0017, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1963s
+Round  35,Testing accuracy: 22.7500,Time:  10.3065s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(4.9582e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(2.6600e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(6.3818e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(1.4184e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(2.0006e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.4424e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(3.0641e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.7743e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0007, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(4.7618e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1634s
+Round  36,Testing accuracy: 24.8100,Time:  8.6188s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(1.9657e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(5.9680e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(3.5718e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(5.6091e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(8.4315e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(9.1787e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(1.0170e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0018, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1683s
+Round  37,Testing accuracy: 23.1500,Time:  8.6849s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(5.3188e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(2.8143e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(6.4636e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(1.4286e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(2.0503e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.4330e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(3.1702e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.7327e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0007, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(4.6901e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1581s
+Round  38,Testing accuracy: 25.2100,Time:  8.6373s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(1.9753e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(6.3058e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(3.5938e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(5.7148e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(8.3991e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(9.4489e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(1.0058e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0018, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1590s
+Round  39,Testing accuracy: 23.8600,Time:  8.6956s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(5.6295e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(2.9847e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(6.5750e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(1.4570e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(2.1091e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.4465e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(3.2785e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.6981e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0008, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(4.6339e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1635s
+Round  40,Testing accuracy: 25.5700,Time:  8.6520s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(2.0096e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(6.2726e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(3.5342e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(5.8385e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(8.3655e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(9.7143e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(9.9263e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0019, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1603s
+Round  41,Testing accuracy: 24.1400,Time:  8.6774s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(6.0843e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(3.1232e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(6.7737e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(1.4881e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(2.1749e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.4610e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(3.3908e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.6805e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0008, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(4.5760e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2033s
+Round  42,Testing accuracy: 25.8600,Time:  9.4153s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(2.1799e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(6.8790e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(3.6783e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(6.0108e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(8.4059e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(9.8735e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0020, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2057s
+Round  43,Testing accuracy: 24.7200,Time:  10.8995s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(6.2066e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(3.3814e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(6.8636e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(1.5240e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(2.2241e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.4600e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(3.4905e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.6412e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0008, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(4.5087e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2293s
+Round  44,Testing accuracy: 26.2800,Time:  11.9379s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(2.1924e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(6.9950e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(3.6721e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(6.1185e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(8.3682e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(9.7462e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0020, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2258s
+Round  45,Testing accuracy: 24.8500,Time:  13.7638s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(6.4567e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(3.5316e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(7.0098e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(1.5658e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(2.3040e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.5234e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(3.6021e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.6362e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0008, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(4.4543e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1920s
+Round  46,Testing accuracy: 26.5300,Time:  11.4473s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(2.1868e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(7.2507e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(3.7434e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(6.2274e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(8.4082e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(9.6728e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0021, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1595s
+Round  47,Testing accuracy: 25.2700,Time:  8.9415s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(6.7301e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(3.7518e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(7.2142e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(1.6014e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(2.3526e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.5333e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(3.6795e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.6086e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0009, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(4.3983e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1920s
+Round  48,Testing accuracy: 26.8100,Time:  10.2039s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(2.2280e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(7.3235e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(3.7934e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(6.4133e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(8.4537e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(9.5823e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0021, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1897s
+Round  49,Testing accuracy: 25.6500,Time:  10.6472s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(6.7098e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(3.7999e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(7.3605e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(1.6501e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(2.4213e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.5657e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(3.7758e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.5945e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0009, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(4.3488e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1994s
+Round  50,Testing accuracy: 27.2300,Time:  10.4519s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(2.4572e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(8.3034e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(4.0195e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(6.6659e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(8.6216e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(9.5416e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0022, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1859s
+Round  51,Testing accuracy: 25.9300,Time:  10.4291s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(7.2801e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(3.9739e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(7.6707e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(1.7165e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(2.5488e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.6532e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(3.9374e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.6027e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0009, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(4.2910e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2095s
+Round  52,Testing accuracy: 27.4000,Time:  10.4878s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(2.4959e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(8.3515e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(4.1355e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(6.9389e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(8.7467e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(9.4625e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0022, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1901s
+Round  53,Testing accuracy: 26.1500,Time:  10.3562s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(7.2759e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(3.9901e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(7.8848e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(1.7594e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(2.6055e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.6826e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(4.0100e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.5829e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0009, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(4.2345e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1995s
+Round  54,Testing accuracy: 27.6200,Time:  10.6055s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(2.4962e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(8.2493e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(4.1631e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(7.0639e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(8.7434e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(9.3629e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0023, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(9.8947e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1776s
+Round  55,Testing accuracy: 26.4700,Time:  10.7659s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(7.6849e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(4.2577e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(8.2042e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(1.8396e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(2.6568e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.7042e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(4.0551e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.5472e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0009, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(4.1889e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1846s
+Round  56,Testing accuracy: 27.9700,Time:  10.2381s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(2.5300e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(8.4293e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(4.2673e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(7.2549e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(8.8065e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(9.2558e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0023, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(9.7708e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1977s
+Round  57,Testing accuracy: 26.7500,Time:  11.2640s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(7.8805e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(4.2154e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(8.5186e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(1.8982e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(2.7642e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.7585e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(4.1877e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.5457e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0009, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(4.1353e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2109s
+Round  58,Testing accuracy: 28.2500,Time:  11.3140s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(2.6422e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(8.9933e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(4.4850e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(7.5585e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(8.9409e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(9.2186e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0024, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(9.6413e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2005s
+Round  59,Testing accuracy: 26.9300,Time:  10.9396s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(8.4297e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(4.5526e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(8.9886e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(2.0007e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(2.8522e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.8035e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(4.2818e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.5256e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0010, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(4.0726e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1921s
+Round  60,Testing accuracy: 28.4900,Time:  10.6644s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(2.7477e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(9.4874e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(4.6937e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(7.8739e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(9.1135e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(9.1707e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0024, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(9.5366e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1975s
+Round  61,Testing accuracy: 27.2000,Time:  10.4134s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(8.7094e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(4.6232e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(9.3634e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(2.0871e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(2.9601e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.8607e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(4.4079e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.5177e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0010, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(4.0332e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1575s
+Round  62,Testing accuracy: 28.5700,Time:  8.3986s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(2.8317e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(9.5306e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0003, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(4.8179e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(8.1423e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(9.1999e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(9.1126e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0024, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(9.4000e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2027s
+Round  63,Testing accuracy: 27.5400,Time:  10.5659s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(9.0985e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(4.8647e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(9.6933e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(2.1632e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(3.0218e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.8742e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(4.4774e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.4987e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0010, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(3.9861e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1894s
+Round  64,Testing accuracy: 28.7800,Time:  10.7521s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(3.0119e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(1.0308e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0003, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(5.1133e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(8.4084e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(9.3567e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(9.0530e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0025, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(9.2717e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1747s
+Round  65,Testing accuracy: 27.9100,Time:  10.2389s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(9.3707e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(5.0989e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(2.2723e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(3.0910e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.9070e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(4.5372e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.4719e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0010, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(3.9258e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2100s
+Round  66,Testing accuracy: 28.9900,Time:  10.9641s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(2.9971e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(1.0323e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0003, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(5.2208e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(8.6521e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(9.4180e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(8.9726e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0025, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(9.1247e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1812s
+Round  67,Testing accuracy: 28.3800,Time:  10.0254s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(9.8775e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(5.2478e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(2.3966e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(3.1947e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.9724e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(4.6508e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.4802e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0010, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(3.8879e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1999s
+Round  68,Testing accuracy: 29.0600,Time:  10.5889s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(3.2142e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(1.0682e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0003, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(5.5097e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(8.9926e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(9.5840e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(8.9350e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0025, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(9.0278e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1899s
+Round  69,Testing accuracy: 28.6300,Time:  11.4807s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(1.0123e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(5.3810e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(2.4709e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(3.2516e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.9588e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(4.7377e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.4344e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0010, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(3.8247e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2279s
+Round  70,Testing accuracy: 29.3300,Time:  11.4619s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(3.3520e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(1.1368e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0003, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(5.8197e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(9.3513e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(9.7435e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(8.8989e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0026, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(8.9260e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1599s
+Round  71,Testing accuracy: 29.1100,Time:  9.1216s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(1.0592e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(5.5448e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(2.5840e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(3.3251e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(4.0083e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(4.7759e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.4196e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0010, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(3.7786e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1924s
+Round  72,Testing accuracy: 29.6900,Time:  9.5245s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(3.4451e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(1.1980e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0003, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(6.0857e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(9.5834e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(9.8764e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(8.8489e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0025, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(8.8015e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1941s
+Round  73,Testing accuracy: 29.5900,Time:  10.7627s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(1.1327e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(5.9757e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(2.6852e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(3.3672e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(4.0029e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(4.8033e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.3832e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0010, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(3.7268e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1878s
+Round  74,Testing accuracy: 30.1000,Time:  10.7217s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(3.6087e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(1.2580e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0003, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(6.4461e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(9.9062e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(1.0030e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(8.7924e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0026, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(8.6955e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1828s
+Round  75,Testing accuracy: 29.6400,Time:  10.2425s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(1.2068e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(6.3950e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(2.8170e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(3.4420e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(4.0207e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(4.9185e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.3572e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0011, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(3.6635e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1899s
+Round  76,Testing accuracy: 29.7300,Time:  10.5792s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(3.8131e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(1.3340e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0004, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(6.7145e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(1.0148e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(8.7046e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0025, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(8.5934e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1982s
+Round  77,Testing accuracy: 29.3600,Time:  10.7284s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(1.2111e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(6.6304e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(2.8726e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(3.4246e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.9908e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(4.8586e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.2798e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0011, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(3.5911e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2009s
+Round  78,Testing accuracy: 29.6900,Time:  11.4042s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(3.8239e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(1.3442e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0004, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(6.6315e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(9.9496e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(8.5178e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0025, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(8.5008e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2040s
+Round  79,Testing accuracy: 28.7100,Time:  11.6152s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(1.2699e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(7.2027e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(2.7675e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(3.2277e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.7485e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(4.6734e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.1265e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0011, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(3.5018e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2085s
+Round  80,Testing accuracy: 29.4600,Time:  11.0271s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(3.6569e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(1.2942e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0003, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(6.2748e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(9.4968e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(9.6238e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(8.2833e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0024, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(8.4168e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2454s
+Round  81,Testing accuracy: 28.7600,Time:  11.4681s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(1.2937e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(7.7609e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(2.7400e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(3.0913e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.6590e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(4.5065e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.0637e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0010, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(3.4191e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1953s
+Round  82,Testing accuracy: 30.4200,Time:  11.1655s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(3.6652e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(1.3183e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0003, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(6.0902e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(9.2912e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(9.5749e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(8.2569e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0024, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(8.2890e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1996s
+Round  83,Testing accuracy: 30.9300,Time:  11.3298s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(1.5156e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(8.7200e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(3.3423e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(3.5382e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(4.1782e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(4.7613e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.2485e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0010, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(3.3754e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2400s
+Round  84,Testing accuracy: 31.5000,Time:  11.3820s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(3.8879e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(1.3715e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0003, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(6.4151e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(9.9229e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(9.8516e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(8.3899e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0026, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(8.1118e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1987s
+Round  85,Testing accuracy: 30.4500,Time:  11.0673s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(1.9124e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(9.6446e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(4.4282e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(4.4315e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(5.0091e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(5.5375e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.5740e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0010, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(3.4425e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1962s
+Round  86,Testing accuracy: 27.6400,Time:  11.0399s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(3.8890e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(1.3934e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0003, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(6.5088e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(9.7631e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(8.5212e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0032, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(8.0606e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1970s
+Round  87,Testing accuracy: 22.6200,Time:  10.9344s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(1.7974e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(6.7523e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(3.6914e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(3.6025e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(4.3769e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(5.0999e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(3.3975e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0011, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(3.6884e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1995s
+Round  88,Testing accuracy: 26.3500,Time:  10.9493s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(2.4024e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(9.3928e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(4.0292e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(6.1307e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(7.6025e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(7.8353e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0029, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(8.1244e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2010s
+Round  89,Testing accuracy: 31.3400,Time:  11.2062s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(8.4676e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(5.4427e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(6.3746e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(1.4535e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(1.5661e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(2.5646e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(2.2817e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(2.5914e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0005, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(3.3872e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2694s
+Round  90,Testing accuracy: 32.7700,Time:  11.0932s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(3.0966e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(1.0693e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0002, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(3.9396e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(6.1573e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(7.6909e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(9.9043e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(7.4058e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0020, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(7.8746e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2050s
+Round  91,Testing accuracy: 32.3800,Time:  11.0269s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(1.1923e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(7.0234e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(9.1929e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(2.0854e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(2.3493e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.1795e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(3.4793e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(2.8501e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0008, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(3.3071e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.3562s
+Round  92,Testing accuracy: 32.2200,Time:  11.5674s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(3.8978e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(1.2536e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0003, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(5.0057e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(8.0882e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(8.6532e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(7.7720e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0025, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(7.7446e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2377s
+Round  93,Testing accuracy: 31.3400,Time:  11.1130s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(1.3887e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(7.6166e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(2.4918e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(2.7893e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.5080e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(4.1561e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(2.9960e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0009, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(3.2764e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1939s
+Round  94,Testing accuracy: 31.6400,Time:  11.4973s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(4.2007e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(1.3148e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0003, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(5.6554e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(8.9545e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(9.1641e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(7.9125e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0025, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(7.7038e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2063s
+Round  95,Testing accuracy: 30.9600,Time:  11.9243s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(1.4395e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(8.0638e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(2.5823e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(2.8141e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.5367e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(4.2307e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(2.9731e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0010, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(3.2407e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2614s
+Round  96,Testing accuracy: 31.5200,Time:  11.7799s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(4.2770e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(1.3576e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0003, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(5.7590e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(8.7072e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(9.1002e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(7.7397e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0023, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(7.6481e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.1967s
+Round  97,Testing accuracy: 31.1100,Time:  11.4141s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(1.4543e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(8.0089e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(2.5512e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(2.7097e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(3.4377e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(4.0189e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(2.8777e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0009, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(3.1633e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2166s
+Round  98,Testing accuracy: 32.0400,Time:  10.8597s
+w_size = 115538065
+param_len:  50
+name:  conv1.weight  -- v_c:  tensor(4.0972e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv1.bias  -- v_c:  tensor(1.3793e-06, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.weight  -- v_c:  tensor(0.0003, device='cuda:0', grad_fn=<DivBackward0>)
+name:  conv2.bias  -- v_c:  tensor(5.6357e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.weight  -- v_c:  tensor(8.2991e-05, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc1.bias  -- v_c:  tensor(8.8974e-08, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.weight  -- v_c:  tensor(0.0001, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc2.bias  -- v_c:  tensor(7.4773e-07, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.weight  -- v_c:  tensor(0.0022, device='cuda:0', grad_fn=<DivBackward0>)
+name:  fc3.bias  -- v_c:  tensor(7.5464e-05, device='cuda:0', grad_fn=<DivBackward0>)
+weight_locols len: 50
+w_locals len: 50
+res len: 10
+tot len: 880 bytes
+FedAverage time: 0.2035s
+Round  99,Testing accuracy: 31.8300,Time:  11.5253s

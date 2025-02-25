@@ -1,0 +1,114 @@
+(venv) wendy@pku:~/code/DPFL$ python3 -u main.py --dataset mnist --dp_mechanism no_dp --gpu 2
+/home/wendy/anaconda3/envs/venv/lib/python3.7/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /home/wendy/anaconda3/envs/venv/lib/python3.7/site-packages/torchvision/image.so: undefined symbol: _ZNK3c1010TensorImpl36is_contiguous_nondefault_policy_implENS_12MemoryFormatE
+  warn(f"Failed to load image Python extension: {e}")
+/home/wendy/anaconda3/envs/venv/lib/python3.7/site-packages/torchvision/datasets/mnist.py:65: UserWarning: train_labels has been renamed targets
+  warnings.warn("train_labels has been renamed targets")
+GradSampleModule(CNNMnist(
+  (conv1): Conv2d(1, 10, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(10, 20, kernel_size=(5, 5), stride=(1, 1))
+  (conv2_drop): Dropout2d(p=0.5, inplace=False)
+  (fc1): Linear(in_features=320, out_features=50, bias=True)
+  (fc2): Linear(in_features=50, out_features=10, bias=True)
+))
+/home/wendy/anaconda3/envs/venv/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+Round   0,Testing accuracy: 10.24,Time:  7.31s
+Round   1,Testing accuracy: 14.55,Time:  5.99s
+Round   2,Testing accuracy: 14.28,Time:  5.99s
+Round   3,Testing accuracy: 21.17,Time:  6.05s
+Round   4,Testing accuracy: 22.31,Time:  5.97s
+Round   5,Testing accuracy: 31.84,Time:  5.98s
+Round   6,Testing accuracy: 32.96,Time:  5.98s
+Round   7,Testing accuracy: 44.43,Time:  5.98s
+Round   8,Testing accuracy: 41.88,Time:  6.06s
+Round   9,Testing accuracy: 52.04,Time:  5.98s
+Round  10,Testing accuracy: 49.15,Time:  6.04s
+Round  11,Testing accuracy: 54.46,Time:  5.98s
+Round  12,Testing accuracy: 52.20,Time:  6.00s
+Round  13,Testing accuracy: 55.01,Time:  6.05s
+Round  14,Testing accuracy: 53.38,Time:  5.97s
+Round  15,Testing accuracy: 55.43,Time:  6.00s
+Round  16,Testing accuracy: 53.88,Time:  6.06s
+Round  17,Testing accuracy: 56.81,Time:  5.99s
+Round  18,Testing accuracy: 54.33,Time:  5.98s
+Round  19,Testing accuracy: 58.29,Time:  5.99s
+Round  20,Testing accuracy: 55.07,Time:  5.99s
+Round  21,Testing accuracy: 60.91,Time:  6.04s
+Round  22,Testing accuracy: 56.51,Time:  5.97s
+Round  23,Testing accuracy: 63.74,Time:  5.99s
+Round  24,Testing accuracy: 58.31,Time:  6.05s
+Round  25,Testing accuracy: 66.02,Time:  5.97s
+Round  26,Testing accuracy: 60.01,Time:  5.98s
+Round  27,Testing accuracy: 68.32,Time:  5.98s
+Round  28,Testing accuracy: 62.19,Time:  6.05s
+Round  29,Testing accuracy: 71.25,Time:  5.96s
+Round  30,Testing accuracy: 64.73,Time:  5.97s
+Round  31,Testing accuracy: 73.83,Time:  5.97s
+Round  32,Testing accuracy: 66.88,Time:  6.03s
+Round  33,Testing accuracy: 76.55,Time:  5.97s
+Round  34,Testing accuracy: 69.44,Time:  5.98s
+Round  35,Testing accuracy: 78.62,Time:  5.98s
+Round  36,Testing accuracy: 71.85,Time:  5.98s
+Round  37,Testing accuracy: 80.74,Time:  6.07s
+Round  38,Testing accuracy: 74.22,Time:  5.97s
+Round  39,Testing accuracy: 82.02,Time:  5.98s
+Round  40,Testing accuracy: 75.86,Time:  5.98s
+Round  41,Testing accuracy: 83.38,Time:  6.06s
+Round  42,Testing accuracy: 77.93,Time:  5.97s
+Round  43,Testing accuracy: 84.24,Time:  5.98s
+Round  44,Testing accuracy: 79.30,Time:  5.98s
+Round  45,Testing accuracy: 84.91,Time:  5.98s
+Round  46,Testing accuracy: 80.54,Time:  6.04s
+Round  47,Testing accuracy: 85.51,Time:  5.96s
+Round  48,Testing accuracy: 81.73,Time:  5.97s
+Round  49,Testing accuracy: 86.04,Time:  6.04s
+Round  50,Testing accuracy: 82.35,Time:  5.96s
+Round  51,Testing accuracy: 86.69,Time:  5.97s
+Round  52,Testing accuracy: 83.03,Time:  5.98s
+Round  53,Testing accuracy: 86.86,Time:  6.03s
+Round  54,Testing accuracy: 84.22,Time:  5.97s
+Round  55,Testing accuracy: 87.36,Time:  5.97s
+Round  56,Testing accuracy: 84.76,Time:  5.98s
+Round  57,Testing accuracy: 87.74,Time:  6.04s
+Round  58,Testing accuracy: 85.16,Time:  5.97s
+Round  59,Testing accuracy: 88.05,Time:  5.99s
+Round  60,Testing accuracy: 85.87,Time:  5.98s
+Round  61,Testing accuracy: 88.37,Time:  6.05s
+Round  62,Testing accuracy: 86.30,Time:  5.95s
+Round  63,Testing accuracy: 88.54,Time:  5.98s
+Round  64,Testing accuracy: 86.60,Time:  5.98s
+Round  65,Testing accuracy: 88.63,Time:  5.99s
+Round  66,Testing accuracy: 87.24,Time:  6.03s
+Round  67,Testing accuracy: 88.94,Time:  5.97s
+Round  68,Testing accuracy: 87.41,Time:  5.97s
+Round  69,Testing accuracy: 89.08,Time:  6.04s
+Round  70,Testing accuracy: 87.71,Time:  6.01s
+Round  71,Testing accuracy: 89.30,Time:  5.97s
+Round  72,Testing accuracy: 88.00,Time:  5.96s
+Round  73,Testing accuracy: 89.62,Time:  6.03s
+Round  74,Testing accuracy: 88.24,Time:  5.98s
+Round  75,Testing accuracy: 89.89,Time:  5.98s
+Round  76,Testing accuracy: 88.39,Time:  6.06s
+Round  77,Testing accuracy: 90.21,Time:  5.97s
+Round  78,Testing accuracy: 88.63,Time:  5.99s
+Round  79,Testing accuracy: 90.31,Time:  5.98s
+Round  80,Testing accuracy: 88.83,Time:  6.06s
+Round  81,Testing accuracy: 90.39,Time:  5.98s
+Round  82,Testing accuracy: 89.10,Time:  5.98s
+Round  83,Testing accuracy: 90.57,Time:  6.05s
+Round  84,Testing accuracy: 89.32,Time:  5.97s
+Round  85,Testing accuracy: 90.58,Time:  5.97s
+Round  86,Testing accuracy: 89.40,Time:  5.97s
+Round  87,Testing accuracy: 90.80,Time:  5.95s
+Round  88,Testing accuracy: 89.65,Time:  5.83s
+Round  89,Testing accuracy: 90.95,Time:  5.83s
+Round  90,Testing accuracy: 89.99,Time:  5.90s
+Round  91,Testing accuracy: 90.96,Time:  5.82s
+Round  92,Testing accuracy: 90.04,Time:  5.83s
+Round  93,Testing accuracy: 91.20,Time:  5.83s
+Round  94,Testing accuracy: 90.20,Time:  5.89s
+Round  95,Testing accuracy: 91.25,Time:  5.83s
+Round  96,Testing accuracy: 90.47,Time:  5.84s
+Round  97,Testing accuracy: 91.28,Time:  5.91s
+Round  98,Testing accuracy: 90.57,Time:  5.82s
+Round  99,Testing accuracy: 91.42,Time:  5.83s
